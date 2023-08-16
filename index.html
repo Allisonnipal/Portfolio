@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-style">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#icon">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href=""><img class="logo" src="logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="icon">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<div class="section">
+  <section id="home" class="home">
+    <p class="h0">Design & Code</p>
+    <p class="ht">ASPIRING WEB DEVELOPER </p>
+    <p class="ho">Hi, I am Allison Nipal. Currently, I am a third-year web </p>
+    <p class ="ho"> development student at the University of Pangasinan.</p>
+  </section>
+  
+  <section id="about" class="about">
+    
+    <div class="boxleft">
+      <p class="a0">about</p>
+      <p class="a1">I'm a Filipino web developer student,</p>
+      <p class="a1">born on June 27, 2002. </p>   
+      <p class="a2">In my spare time, I'm probably watching my favorite </p>
+      <p class="a3">shows or hanging out with my friends. Sketching and </p>
+      <p class="a3">cycling are two of my favorite pastimes.</p>
+    </div>
+    
+    <div class="slidershow right">
+      <p class="a4">Here are some of my hobbies</p>
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked="">
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="3.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="4.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="5.jpg" alt="">
+        </div>
+      </div>
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+        <label for="r5" class="bar"></label>
+      </div>
+    </div>
+  </section>
+  
+  <section id="projects" class="projects">
+    <div class="width">
+    <p class="proj">projects</p>
+    </div>
+    <div class="card-projects">
+      <div class="card-image pic1"></div>
+      <h2>PinaSarap</h2>
+      <p>Filipino cooking app that helps users find recipes for Filipino cuisine. Our group built it during our second year of college.</p>
+    <a href="">SEE MORE</a>
+  </div>
+    <div class="card-projects">
+      <div class="card-image pic2"></div>
+      <h2>SineMoToh</h2>
+      <p>Website for reviewing and suggesting movies and television shows that was built by our group in our second year of college.</p>
+      <a href="">SEE MORE</a>
+    </div>
+    <div class="card-projects">
+      <div class="card-image pic3"></div>
+      <h2>Table</h2>
+      <p>This was our first activity in our third year of college, where we were assigned to code and design a random table.</p>
+      <a href="">SEE MORE</a>
+    </div>
+    <div class="card-projects">
+      <div class="card-image pic4"></div>
+      <h2>Resume</h2>
+      <p>We were entrusted with creating our first programmed personal resumes in our first year of college, and this was mine.</p>
+      <a href="">SEE MORE</a>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="c0">contact</p>
+          <p class="c1">Feel free to contact me via my social media accounts or the box below.</p>
+          
+          <form target="_blank" action="https://son627041@gmail.com" method="POST">
+              <input type="text" name="name" class="form-control" placeholder="Name" required>
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+              <button class="btn" type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            </form>
+            
+          <br><a class="c2" href="mailto:son627041@gmail.com"> <img src="gmail.png " alt=""srcset=""> </a>
+          <a class="c2" href="https://www.instagram.com/yunaako/"> <img src="ig.png "  alt=""srcset=""> </a>
+          <a class="c2" href="https://www.facebook.com/alison.nipal?mibextid=ZbWKwL"> <img src="fb.png " alt=""srcset=""> </a>
+          <a class="c2" href="https://m.me/alison.nipal"> <img src="mes.png " alt=""srcset=""> </a>
+        </div>
+        <div class="col-sm-6">
+          <img src="me.jpg" class="meimage" class="img-responsive">
+        </div>
+      </div>
+      
+    </div>
+  </section>
+</div>
+</div>
+</div>
+
+</body>
+</html>
