@@ -269,21 +269,26 @@ section.projects {
 }
 
 section.contact{
-background-color: rgb(12, 1, 29);
+    background-image: url('abd.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    display: flex;
 }
 .col-sm-6{
-    color: #ffffff;
-    margin-top: 10%;
+    color: #000000;
+    margin-top: 4%;
 }
 .meimage{
     border-radius: 60%;
     height: 65%;
     width: 65%;
     margin-left: 18%;
-    margin-top: 30%;
+    margin-top: 25%;
 }
 .c0{
-    margin-top: 15%;
+    color: #fff;
+    margin-top: 10%;
     font-size: 120px;
     font-family: 'Dosis', sans-serif;
 }
@@ -305,51 +310,54 @@ background-color: rgb(12, 1, 29);
     height: 30px;
     width: 30px;
 }
-.btn{
-    margin-top: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    display: block;
-}
-.form-control{
-    margin-bottom: 5px;
-}
-
-.drop{
-    font-size: 25px;
-    font-family: 'Dosis', sans-serif; 
-    font-weight: lighter;
-    color: #c2bebe;  
-    margin-bottom:20px;
-    margin-top: 45px;
-}
 .pt{
     font-weight: lighter;
     font-size: 25px;
     font-family: 'Dosis', sans-serif;
 }
-.button-p{
-    padding: 5px 20px;
-    background-color: #B4FEE7;
-    color: #5820da;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 25px;
-    font-family: 'Dosis', sans-serif;
-    box-shadow: 0 9px #999;
+input{
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 15px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+textarea{
+    background-color: white;
+    width: 91%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:focus-within{
     outline: none;
-    margin-left: 45%;
-}
-.button-p:hover { 
-    background-color: #B4FEE7;
-}
-.button-p:active {
-    background-color: #B4FEE7;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-.col form{
-    margin-top: 20px;
+    border-color: rgb(143, 218, 29);
+    border-width: 3px;
     color: black;
+}
+textarea:focus-within{
+    outline: none;
+    border-color: rgb(143, 218, 29);
+    border-width: 3px;
+}
+.bsub{
+    color: #ffffff;
+    background-color: rgb(9, 134, 143);
+    border-radius: 20px;
+    border-color: black;
+    font-size: 20px;
+    margin-right: 20%;
+    padding: 10px 10px;
+    display: flex;    
+}
+.bsub:hover{
+    opacity: 75%;
+    cursor: pointer;
 }
